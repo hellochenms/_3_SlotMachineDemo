@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99FDB004186AA716008FD7C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99FDB003186AA716008FD7C5 /* Foundation.framework */; };
+		99FDB006186AA716008FD7C5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99FDB005186AA716008FD7C5 /* CoreGraphics.framework */; };
+		99FDB008186AA716008FD7C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99FDB007186AA716008FD7C5 /* UIKit.framework */; };
+		99FDB00E186AA716008FD7C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99FDB00C186AA716008FD7C5 /* InfoPlist.strings */; };
+		99FDB010186AA716008FD7C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FDB00F186AA716008FD7C5 /* main.m */; };
+		99FDB014186AA716008FD7C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FDB013186AA716008FD7C5 /* AppDelegate.m */; };
+		99FDB016186AA716008FD7C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99FDB015186AA716008FD7C5 /* Images.xcassets */; };
+		99FDB01D186AA716008FD7C5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99FDB01C186AA716008FD7C5 /* XCTest.framework */; };
+		99FDB01E186AA716008FD7C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99FDB003186AA716008FD7C5 /* Foundation.framework */; };
+		99FDB01F186AA716008FD7C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99FDB007186AA716008FD7C5 /* UIKit.framework */; };
+		99FDB027186AA716008FD7C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99FDB025186AA716008FD7C5 /* InfoPlist.strings */; };
+		99FDB029186AA716008FD7C5 /* SlotMachineDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FDB028186AA716008FD7C5 /* SlotMachineDemoTests.m */; };
+		99FDB036186AA758008FD7C5 /* ZCSlotMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FDB035186AA758008FD7C5 /* ZCSlotMachine.m */; };
+		99FDB039186AA76E008FD7C5 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FDB038186AA76E008FD7C5 /* RootViewController.m */; };
+		99FDB040186AABBE008FD7C5 /* app123@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FDB03C186AABBE008FD7C5 /* app123@2x.png */; };
+		99FDB041186AABBE008FD7C5 /* kuaiapp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FDB03D186AABBE008FD7C5 /* kuaiapp@2x.png */; };
+		99FDB042186AABBE008FD7C5 /* kuaigame.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FDB03E186AABBE008FD7C5 /* kuaigame.png */; };
+		99FDB043186AABBE008FD7C5 /* weather@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FDB03F186AABBE008FD7C5 /* weather@2x.png */; };
+		99FDB045186AAE28008FD7C5 /* button_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FDB044186AAE28008FD7C5 /* button_bg@2x.png */; };
+		99FDB047186AB127008FD7C5 /* common_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FDB046186AB127008FD7C5 /* common_bg@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99FDB020186AA716008FD7C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99FDAFF8186AA716008FD7C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99FDAFFF186AA716008FD7C5;
+			remoteInfo = SlotMachineDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99FDB000186AA716008FD7C5 /* SlotMachineDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotMachineDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99FDB003186AA716008FD7C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		99FDB005186AA716008FD7C5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		99FDB007186AA716008FD7C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		99FDB00B186AA716008FD7C5 /* SlotMachineDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SlotMachineDemo-Info.plist"; sourceTree = "<group>"; };
+		99FDB00D186AA716008FD7C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99FDB00F186AA716008FD7C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99FDB011186AA716008FD7C5 /* SlotMachineDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SlotMachineDemo-Prefix.pch"; sourceTree = "<group>"; };
+		99FDB012186AA716008FD7C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		99FDB013186AA716008FD7C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		99FDB015186AA716008FD7C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		99FDB01B186AA716008FD7C5 /* SlotMachineDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlotMachineDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99FDB01C186AA716008FD7C5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		99FDB024186AA716008FD7C5 /* SlotMachineDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SlotMachineDemoTests-Info.plist"; sourceTree = "<group>"; };
+		99FDB026186AA716008FD7C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99FDB028186AA716008FD7C5 /* SlotMachineDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlotMachineDemoTests.m; sourceTree = "<group>"; };
+		99FDB034186AA758008FD7C5 /* ZCSlotMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCSlotMachine.h; sourceTree = "<group>"; };
+		99FDB035186AA758008FD7C5 /* ZCSlotMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCSlotMachine.m; sourceTree = "<group>"; };
+		99FDB037186AA76E008FD7C5 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		99FDB038186AA76E008FD7C5 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		99FDB03C186AABBE008FD7C5 /* app123@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app123@2x.png"; sourceTree = "<group>"; };
+		99FDB03D186AABBE008FD7C5 /* kuaiapp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kuaiapp@2x.png"; sourceTree = "<group>"; };
+		99FDB03E186AABBE008FD7C5 /* kuaigame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kuaigame.png; sourceTree = "<group>"; };
+		99FDB03F186AABBE008FD7C5 /* weather@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weather@2x.png"; sourceTree = "<group>"; };
+		99FDB044186AAE28008FD7C5 /* button_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_bg@2x.png"; sourceTree = "<group>"; };
+		99FDB046186AB127008FD7C5 /* common_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_bg@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99FDAFFD186AA716008FD7C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FDB006186AA716008FD7C5 /* CoreGraphics.framework in Frameworks */,
+				99FDB008186AA716008FD7C5 /* UIKit.framework in Frameworks */,
+				99FDB004186AA716008FD7C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99FDB018186AA716008FD7C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FDB01D186AA716008FD7C5 /* XCTest.framework in Frameworks */,
+				99FDB01F186AA716008FD7C5 /* UIKit.framework in Frameworks */,
+				99FDB01E186AA716008FD7C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99FDAFF7186AA716008FD7C5 = {
+			isa = PBXGroup;
+			children = (
+				99FDB009186AA716008FD7C5 /* SlotMachineDemo */,
+				99FDB022186AA716008FD7C5 /* SlotMachineDemoTests */,
+				99FDB002186AA716008FD7C5 /* Frameworks */,
+				99FDB001186AA716008FD7C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99FDB001186AA716008FD7C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99FDB000186AA716008FD7C5 /* SlotMachineDemo.app */,
+				99FDB01B186AA716008FD7C5 /* SlotMachineDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99FDB002186AA716008FD7C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99FDB003186AA716008FD7C5 /* Foundation.framework */,
+				99FDB005186AA716008FD7C5 /* CoreGraphics.framework */,
+				99FDB007186AA716008FD7C5 /* UIKit.framework */,
+				99FDB01C186AA716008FD7C5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99FDB009186AA716008FD7C5 /* SlotMachineDemo */ = {
+			isa = PBXGroup;
+			children = (
+				99FDB032186AA733008FD7C5 /* Classes */,
+				99FDB012186AA716008FD7C5 /* AppDelegate.h */,
+				99FDB013186AA716008FD7C5 /* AppDelegate.m */,
+				99FDB015186AA716008FD7C5 /* Images.xcassets */,
+				99FDB00A186AA716008FD7C5 /* Supporting Files */,
+				99FDB03A186AA927008FD7C5 /* Resources */,
+			);
+			path = SlotMachineDemo;
+			sourceTree = "<group>";
+		};
+		99FDB00A186AA716008FD7C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99FDB00B186AA716008FD7C5 /* SlotMachineDemo-Info.plist */,
+				99FDB00C186AA716008FD7C5 /* InfoPlist.strings */,
+				99FDB00F186AA716008FD7C5 /* main.m */,
+				99FDB011186AA716008FD7C5 /* SlotMachineDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99FDB022186AA716008FD7C5 /* SlotMachineDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				99FDB028186AA716008FD7C5 /* SlotMachineDemoTests.m */,
+				99FDB023186AA716008FD7C5 /* Supporting Files */,
+			);
+			path = SlotMachineDemoTests;
+			sourceTree = "<group>";
+		};
+		99FDB023186AA716008FD7C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99FDB024186AA716008FD7C5 /* SlotMachineDemoTests-Info.plist */,
+				99FDB025186AA716008FD7C5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99FDB032186AA733008FD7C5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				99FDB033186AA737008FD7C5 /* SlotMachine */,
+				99FDB037186AA76E008FD7C5 /* RootViewController.h */,
+				99FDB038186AA76E008FD7C5 /* RootViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		99FDB033186AA737008FD7C5 /* SlotMachine */ = {
+			isa = PBXGroup;
+			children = (
+				99FDB034186AA758008FD7C5 /* ZCSlotMachine.h */,
+				99FDB035186AA758008FD7C5 /* ZCSlotMachine.m */,
+			);
+			name = SlotMachine;
+			sourceTree = "<group>";
+		};
+		99FDB03A186AA927008FD7C5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				99FDB03B186AA979008FD7C5 /* images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		99FDB03B186AA979008FD7C5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				99FDB046186AB127008FD7C5 /* common_bg@2x.png */,
+				99FDB044186AAE28008FD7C5 /* button_bg@2x.png */,
+				99FDB03C186AABBE008FD7C5 /* app123@2x.png */,
+				99FDB03D186AABBE008FD7C5 /* kuaiapp@2x.png */,
+				99FDB03E186AABBE008FD7C5 /* kuaigame.png */,
+				99FDB03F186AABBE008FD7C5 /* weather@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99FDAFFF186AA716008FD7C5 /* SlotMachineDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99FDB02C186AA716008FD7C5 /* Build configuration list for PBXNativeTarget "SlotMachineDemo" */;
+			buildPhases = (
+				99FDAFFC186AA716008FD7C5 /* Sources */,
+				99FDAFFD186AA716008FD7C5 /* Frameworks */,
+				99FDAFFE186AA716008FD7C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlotMachineDemo;
+			productName = SlotMachineDemo;
+			productReference = 99FDB000186AA716008FD7C5 /* SlotMachineDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99FDB01A186AA716008FD7C5 /* SlotMachineDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99FDB02F186AA716008FD7C5 /* Build configuration list for PBXNativeTarget "SlotMachineDemoTests" */;
+			buildPhases = (
+				99FDB017186AA716008FD7C5 /* Sources */,
+				99FDB018186AA716008FD7C5 /* Frameworks */,
+				99FDB019186AA716008FD7C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99FDB021186AA716008FD7C5 /* PBXTargetDependency */,
+			);
+			name = SlotMachineDemoTests;
+			productName = SlotMachineDemoTests;
+			productReference = 99FDB01B186AA716008FD7C5 /* SlotMachineDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99FDAFF8186AA716008FD7C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Chen Meisong";
+				TargetAttributes = {
+					99FDB01A186AA716008FD7C5 = {
+						TestTargetID = 99FDAFFF186AA716008FD7C5;
+					};
+				};
+			};
+			buildConfigurationList = 99FDAFFB186AA716008FD7C5 /* Build configuration list for PBXProject "SlotMachineDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 99FDAFF7186AA716008FD7C5;
+			productRefGroup = 99FDB001186AA716008FD7C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99FDAFFF186AA716008FD7C5 /* SlotMachineDemo */,
+				99FDB01A186AA716008FD7C5 /* SlotMachineDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99FDAFFE186AA716008FD7C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FDB00E186AA716008FD7C5 /* InfoPlist.strings in Resources */,
+				99FDB043186AABBE008FD7C5 /* weather@2x.png in Resources */,
+				99FDB045186AAE28008FD7C5 /* button_bg@2x.png in Resources */,
+				99FDB040186AABBE008FD7C5 /* app123@2x.png in Resources */,
+				99FDB042186AABBE008FD7C5 /* kuaigame.png in Resources */,
+				99FDB041186AABBE008FD7C5 /* kuaiapp@2x.png in Resources */,
+				99FDB047186AB127008FD7C5 /* common_bg@2x.png in Resources */,
+				99FDB016186AA716008FD7C5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99FDB019186AA716008FD7C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FDB027186AA716008FD7C5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99FDAFFC186AA716008FD7C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FDB014186AA716008FD7C5 /* AppDelegate.m in Sources */,
+				99FDB010186AA716008FD7C5 /* main.m in Sources */,
+				99FDB039186AA76E008FD7C5 /* RootViewController.m in Sources */,
+				99FDB036186AA758008FD7C5 /* ZCSlotMachine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99FDB017186AA716008FD7C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FDB029186AA716008FD7C5 /* SlotMachineDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99FDB021186AA716008FD7C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99FDAFFF186AA716008FD7C5 /* SlotMachineDemo */;
+			targetProxy = 99FDB020186AA716008FD7C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99FDB00C186AA716008FD7C5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99FDB00D186AA716008FD7C5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		99FDB025186AA716008FD7C5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99FDB026186AA716008FD7C5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99FDB02A186AA716008FD7C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99FDB02B186AA716008FD7C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99FDB02D186AA716008FD7C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlotMachineDemo/SlotMachineDemo-Prefix.pch";
+				INFOPLIST_FILE = "SlotMachineDemo/SlotMachineDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		99FDB02E186AA716008FD7C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlotMachineDemo/SlotMachineDemo-Prefix.pch";
+				INFOPLIST_FILE = "SlotMachineDemo/SlotMachineDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		99FDB030186AA716008FD7C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SlotMachineDemo.app/SlotMachineDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlotMachineDemo/SlotMachineDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SlotMachineDemoTests/SlotMachineDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		99FDB031186AA716008FD7C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SlotMachineDemo.app/SlotMachineDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlotMachineDemo/SlotMachineDemo-Prefix.pch";
+				INFOPLIST_FILE = "SlotMachineDemoTests/SlotMachineDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99FDAFFB186AA716008FD7C5 /* Build configuration list for PBXProject "SlotMachineDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99FDB02A186AA716008FD7C5 /* Debug */,
+				99FDB02B186AA716008FD7C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99FDB02C186AA716008FD7C5 /* Build configuration list for PBXNativeTarget "SlotMachineDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99FDB02D186AA716008FD7C5 /* Debug */,
+				99FDB02E186AA716008FD7C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		99FDB02F186AA716008FD7C5 /* Build configuration list for PBXNativeTarget "SlotMachineDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99FDB030186AA716008FD7C5 /* Debug */,
+				99FDB031186AA716008FD7C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99FDAFF8186AA716008FD7C5 /* Project object */;
+}
