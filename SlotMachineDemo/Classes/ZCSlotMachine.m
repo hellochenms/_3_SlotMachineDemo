@@ -242,10 +242,10 @@ static const NSUInteger kStopDuration = 3;
     // @chenms @2013-12-27
     // 第一列的动画结束时，设置为超时，此后从服务端返回的摇奖结果，将被忽略
     // 当然，这可能会造成服务端和客户端摇奖结果不一致；但合理设置动画时间，应该能将几率降到很低。
-//    if (i == 0) {
-//        [self setIsTimeout:YES];
-//    }
-//    
+    if (i == 0) {
+        [self setIsTimeout:YES];
+    }
+
     NSArray *slotIcons = [self.dataSource iconsForSlotsInSlotMachine:self];
     NSUInteger slotIconsCount = [slotIcons count];
     
@@ -362,6 +362,7 @@ static const NSUInteger kStopDuration = 3;
         if (!_isTimeout) {
             _realResults = results;
         }
+//    NSLog(@"服务端响应(%@)  @@%s", _realResults, __func__);
 //    }
 }
 - (NSArray*)realResults{
